@@ -33,6 +33,11 @@ accordingly.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+In the worst case, we have to visit every node, represented by V.
+In the worst case, we have to travese every edge, represented by E.
+The worst case is essentially the end node being placed in the last checked of the adjacent nodes. This can be represented by $\Theta (V+E)$
+
+
 ## Sources and Plagarism Statement
 Talked to Lily Brongo and glanced at the repos of Collin Davis and Lily Brongo, which helped me realize I needed to use Depth or Bredth First Search. No code was taken from these repos, and all implementation and work is my own.
 
