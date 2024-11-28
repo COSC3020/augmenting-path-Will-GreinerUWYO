@@ -1,4 +1,4 @@
-# Augmenting Paths
+aa# Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
 through a graph, I mentioned the "find an augmenting path" function. You're
@@ -32,3 +32,10 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## Sources and Plagarism Statement
+Talked to Lily Brongo and glanced at the repos of Collin Davis and Lily Brongo, which helped me realize I needed to use Depth or Bredth First Search. No code was taken from these repos, and all implementation and work is my own.
+
+Used the slides and this video [Michael Sambol](https://www.youtube.com/watch?v=Urx87-NMm6c&ab_channel=MichaelSambol) to help me understand Depth-First Search
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
