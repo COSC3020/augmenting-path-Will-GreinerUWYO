@@ -3,13 +3,7 @@ function augmentingPath(graph, start, end) {
     if(start === end) {
         return start;
     }
-    let toCheck = [];
-    let nodeCount = 0;
-
-    for(let i = 0; i < graph.length; i++){
-        toCheck[0] = graph[i][0];
-        nodeCount++;
-    }
+    let nodeCount = graph.length;
     
     path[0] = start;
     let currentNode = start;
@@ -20,8 +14,9 @@ function augmentingPath(graph, start, end) {
         if(currentNode === end){
             return path;
         }
+        if (graph)
         for(connected[0] in graph[currentNode][connected][0]){
-            if (connected[1] > nextNodeVal){
+            if (connected[1] < nextNodeVal){
                 nextNode = connected;
                 nextNodeVal = connected[1];
             }
